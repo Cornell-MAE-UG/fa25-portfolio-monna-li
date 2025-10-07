@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Monna Li - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
