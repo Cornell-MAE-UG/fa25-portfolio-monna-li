@@ -3,7 +3,7 @@ layout: project
 title: Actuator Mechanism Design
 description: Class Assignment
 technologies: [GitHub]
-image: /assets/images/actuator.png
+image: /assets/images/actuator-mechanism.png
 ---
 
 
