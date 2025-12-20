@@ -12,29 +12,29 @@ Group Members: Monna Li and Stephanie Cheng
 **Photos and schematics of the device or system:**
 
 (we forgot to take photos so we got our photos from a friend who went a different day)
-![Photo of old radio]({{ "/assets/images/thermo-1.png" | relative_url }})
+![Photo of old radio]({{ "/assets/images/thermo-1.png" | relative_url }}){: style="width: 600px"}
 
 **A qualitative description of the device or system:**
 
 The device we chose to look at was a heat exchanger. It has four ports, labeled 1, 2, 3, and 4, where 1 flows to 2 (and vice versa) and 3 flows to 4 (and vice versa). There is one cold water reservoir, consisting of a bucket with ice water placed inside styrofoam insulation, and one hot water reservoir, consisting of a bucket with water and an attached immersion heater.
-![Photo of old radio]({{ "/assets/images/thermo-2.png" | relative_url }})
+![Photo of old radio]({{ "/assets/images/thermo-2.png" | relative_url }}){: style="width: 600px"}
 
 **A system diagram of the device or system operating (either CV or CM), showing work and heat transfer interactions as well as any relevant mass flows:**
 
-![Photo of old radio]({{ "/assets/images/thermo-3.png" | relative_url }})
+![Photo of old radio]({{ "/assets/images/thermo-3.png" | relative_url }}){: style="width: 600px"}
 
 **Mass balance, energy balance, and entropy balance equations (as relevant) capturing the physics more central to the device or system operation:**
 
-![Photo of old radio]({{ "/assets/images/thermo-4.png" | relative_url }})
+![Photo of old radio]({{ "/assets/images/thermo-4.png" | relative_url }}){: style="width: 400px"}
 
-![Photo of old radio]({{ "/assets/images/thermo-5.png" | relative_url }})
-![Photo of old radio]({{ "/assets/images/thermo-6.png" | relative_url }})
+![Photo of old radio]({{ "/assets/images/thermo-5.png" | relative_url }}){: style="width: 600px"}
+![Photo of old radio]({{ "/assets/images/thermo-6.png" | relative_url }}){: style="width: 600px"}
 
 Entropy generation cannot be negative, but we got negative values for the cold reservoir in both parallel and counter flow. Thus, the entropy balance equation is irrelevant in this case.
 
 **Describe a change to device or system design or operating conditions and then how that change influences device performance:**
 
-![Photo of old radio]({{ "/assets/images/thermo-7.png" | relative_url }})
+![Photo of old radio]({{ "/assets/images/thermo-7.png" | relative_url }}){: style="width: 300px"}
 
 We started by running the system in parallel flow, then changed the set up to run it again in counter flow. In parallel flow, the two pumps and reservoirs are put on the same side of the heat exchanger so that water from the cold and hot reservoirs flow in the same direction. In counter flow, one of the reservoirs is put on the other side of the heat exchanger, pumping the water such that it flows in the opposite direction of the other reservoir. This change influences device performance because in parallel flow, both lines start with a large temperature difference and approach the same mean temperature in which there isn’t a lot of heat exchange. Meanwhile in counter flow, the gradient of hot to mean versus cold to mean occurs in opposite directions such that there will be a more consistent large temperature difference and thus more heat exchange occurring.
 
@@ -44,7 +44,7 @@ Heat exchangers are used in the real world in fridges, during which cold refrige
 
 **Is the heat exchanger actually operating in an adiabatic manner (following our typical assumption)? How does this feature (or lack of this feature) influence function in the real world application you’re considering?:**
 
-![Photo of old radio]({{ "/assets/images/thermo-8.png" | relative_url }})
+![Photo of old radio]({{ "/assets/images/thermo-8.png" | relative_url }}){: style="width: 300px"}
 
 The heat exchanger is not operating in an adiabatic manner because if you compare the amount of heat energy entering the cold water to the amount of heat energy leaving the hot water, you find that its efficiency is not 100%, meaning that all of the heat leaving the hot water didn’t actually go into the cold water but rather also into the environment. Additionally, while our data didn’t reflect this, if the efficiency is over 100%, it means that heat is entering from the environment and heating up the cold water which similarly means the system is not adiabatic. The lack of this adiabatic feature influences function in the real world because we would need to over-compensate for the heat that is both entering and exiting out into the environment. This means that we would actually need more refrigerant flow to cool the fridge since some of it is lost to cooling the nearby environment rather than entirely going towards cooling the inside of the fridge.
 
