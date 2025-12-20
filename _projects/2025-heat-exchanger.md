@@ -7,12 +7,17 @@ image: /assets/images/thermo-0.png
 ---
 
 
+
+
+
+
 Group Members: Monna Li and Stephanie Cheng
 
 **Photos and schematics of the device or system:**
 
 (we forgot to take photos so we got our photos from a friend who went a different day)
 ![Photo of old radio]({{ "/assets/images/thermo-1.png" | relative_url }}){: style="width: 600px"}
+
 
 **A qualitative description of the device or system:**
 
