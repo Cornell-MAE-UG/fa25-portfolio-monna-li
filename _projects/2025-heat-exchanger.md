@@ -6,19 +6,7 @@ technologies: [GitHub]
 image:
 ---
 
+**Thermo Portfolio (Group Members: Monna Li and Stephanie Cheng)**
 
-
-
-
-
-
-
-
-![Photo of old radio]({{ "/assets/images/thermo-1.png" | relative_url }}){: .inline-image-l}
-![Photo of old radio]({{ "/assets/images/thermo-2.png" | relative_url }}){: .inline-image-l}
-![Photo of old radio]({{ "/assets/images/thermo-2.png" | relative_url }}){: .inline-image-l}
-![Photo of old radio]({{ "/assets/images/thermo-3.png" | relative_url }}){: .inline-image-l}
-![Photo of old radio]({{ "/assets/images/thermo-4.png" | relative_url }}){: .inline-image-l}
-![Photo of old radio]({{ "/assets/images/thermo-5.png" | relative_url }}){: .inline-image-l}
-![Photo of old radio]({{ "/assets/images/thermo-6.png" | relative_url }}){: .inline-image-l}
-![Photo of old radio]({{ "/assets/images/thermo-7.png" | relative_url }}){: .inline-image-l}
+Photos and schematics of the device or system:
+(we forgot to take photos so we got our photos from a friend who went a different day)
