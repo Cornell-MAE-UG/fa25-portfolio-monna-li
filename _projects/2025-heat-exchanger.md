@@ -3,9 +3,19 @@ layout: project
 title: Heat Exchanger Analysis
 description: Class Assignment
 technologies: [GitHub]
-image: /assets/images/thermo-1.png
+image:
 ---
 
+
+
+
+
+
+
+
+
+![Photo of old radio]({{ "/assets/images/thermo-1.png" | relative_url }}){: .inline-image-l}
+![Photo of old radio]({{ "/assets/images/thermo-2.png" | relative_url }}){: .inline-image-l}
 ![Photo of old radio]({{ "/assets/images/thermo-2.png" | relative_url }}){: .inline-image-l}
 ![Photo of old radio]({{ "/assets/images/thermo-3.png" | relative_url }}){: .inline-image-l}
 ![Photo of old radio]({{ "/assets/images/thermo-4.png" | relative_url }}){: .inline-image-l}
