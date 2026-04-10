@@ -1,8 +1,3 @@
-# Table of Contents
-
-- [Client Pitch](#swatr-a-scalable-robotic-lanternfly-removal-attachment)
-- [Functional Prototype](#functional-prototype)
-
 ---
 layout: project
 description: Client Outline and Pitch for MAE2250 ODP
@@ -19,6 +14,11 @@ header-includes:
   - \addtolength{\textheight}{0.6in}
   - \addtolength{\topmargin}{-0.3in}
 ---
+
+# Table of Contents
+
+- [Client Pitch](#swatr-a-scalable-robotic-lanternfly-removal-attachment)
+- [Functional Prototype](#functional-prototype)
 
 # SWATR: A Scalable Robotic Lanternfly Removal Attachment
 **Team:** The Bug Busting Crew  
