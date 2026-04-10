@@ -127,12 +127,12 @@ Instructions:
 Results:
 | Height (inch) | Did it reach the height? | Time (sec) |
 |---------------|--------------------------|------------|
-| 0.25          |                          |            |
-| 0.5           |                          |            |
-| 0.75          |                          |            |
-| 1             |                          |            |
-| 1.25          |                          |            |
-| 1.5           |                          |            |
+| 0.25          |           -               |      -      |
+| 0.5           |            -              |       -     |
+| 0.75          |             -             |        -    |
+| 1             |              -            |         -   |
+| 1.25          |               -           |     -       |
+| 1.5           |                -          |      -      |
 
 Test 2( original):
 Mechanism: Grabber (motion and load bearing performance)
@@ -147,11 +147,11 @@ Find 5 different objects of similar mass but with different shapes. The masses c
 Results:
 | Mass (g) | Starting Position (inch) | Ending Position (inch) | Total Amount Moved (inch) |
 |----------|--------------------------|------------------------|----------------------------|
-| 1        |                          |                        |                            |
-| 2        |                          |                        |                            |
-| 3        |                          |                        |                            |
-| 4        |                          |                        |                            |
-| 5        |                          |                        |                            |
+| 1        |             -             |             -           |                -            |
+| 2        |                 -         |     -                   |               -             |
+| 3        |                  -        |      -                  |                -            |
+| 4        |                   -       |       -                 |                 -           |
+| 5        |                    -      |        -                |                  -          |
 
 | Object | Mass (g) | Starting Position (inch) | Ending Position (inch) | Total Amount Moved (inch) |
 |--------|----------|--------------------------|------------------------|----------------------------|
