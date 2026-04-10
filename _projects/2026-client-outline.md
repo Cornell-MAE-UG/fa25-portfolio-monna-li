@@ -108,12 +108,12 @@ These results validate the feasibility of a robotic removal approach, while high
 
 ## Prototype Document (Full Report)
 
-[View Full Functional Prototype PDF](assets/pdfs/functional_prototype.pdf)
+[View Full Functional Prototype PDF](assets/functional_prototype.pdf)
 
 <object data="{{ '/assets/functional_prototype.pdf' | relative_url }}" 
         type="application/pdf" 
         width="100%" 
         height="600px">
     <p>Your browser does not support PDFs. 
-    <a href="{{ '/assets/pdfs/functional_prototype.pdf' | relative_url }}">Download the PDF</a>.</p>
+    <a href="{{ '/assets/functional_prototype.pdf' | relative_url }}">Download the PDF</a>.</p>
 </object>
