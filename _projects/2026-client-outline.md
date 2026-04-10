@@ -83,16 +83,19 @@ A robotic removal tool integrated into existing field robots would reduce labor 
 
 # Functional Prototype
 
-## Purpose
+## Design Documentation
 
-The purpose of this prototype was to test the feasibility of a robotic end-effector capable of removing spotted lanternflies (SLF) from vertical surfaces. The goal was to evaluate whether physical removal could be both effective and repeatable in a controlled setting.
+| Description | McMaster-Carr Code | Fabrication Details |
+|----------|---------------------|------------|
+| Ultra-Machinable 360 Brass Rod (3 ft. long) | 8953K101 | Cut down to 2x150 mm long, 1x35mm |
+| Set Screw Shaft Collar (for 1/8" Diameter, Black-Oxide 1215 Carbon Steel) | 9414T3 | N/A |
+| 18-8 Stainless Steel Socket Head Screw (M3 x 0.5 mm Thread, 4 mm Long) | 91292A109 | N/A |
+| 18-8 Stainless Steel Socket Head Screw (M2 x 0.4 mm Thread, 12 mm Long) | 91292A834 | N/A |
+| Miuzei MG90S 9G Micro Servo Motor Metal Geared Motor Kit for RC Car Robot Helicopter, Mini Servos for Arduino Project | (from Amazon) | N/A |
 
-## What Was Tested
+## Design Intent
 
-- Ability of the end-effector to contact and remove a target
-- Retention of the target after removal
-- Performance across different surface types (flat vs. textured)
-- Basic motion sequence: approach → remove → retract
+![Prototype Sketch](assets/images/your_image.png)
 
 ## Outcome
 
