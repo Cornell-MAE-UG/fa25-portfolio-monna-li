@@ -95,28 +95,53 @@ A robotic removal tool integrated into existing field robots would reduce labor 
 
 ## Design Intent
 
-![Prototype Sketch](assets/images/your_image.png)
+![Prototype Sketch](assets/images/odp5-prototype-sketch.png)
+Yellow: Represents Motion (Hinging of Arms, Telescoping Assembly)
+Blue: Parts not CADed, and labels for these parts
+Green: Functionality Descriptions
+Red: McMaster Parts
 
-## Outcome
+The main principal behind the design is to have a 2 DOF end effector that can both open/close on spotted lanternflies (via the upper two servos w/ sliders along the rods to prevent binding), and telescoping (via a lower servo that shifts the pivot point of the grippers, with a slotted servo horn to prevent binding). This allows us to program preseise, rapid motion all through the same kind of motors, without the need of more elaborate parts such as ball screw assemblies.
 
-The prototype successfully demonstrated that:
-- Targets could be removed from vertical surfaces
-- Certain end-effector designs improved retention significantly
-- Surface variation affected removal efficiency
-- Cycle time remains a key constraint for scalability
+![Assembly1](assets/images/odp5-assembly1.png)
+![Assembly2](assets/images/odp5-assembly2.png)
 
-These results validate the feasibility of a robotic removal approach, while highlighting the need for improvements in retention reliability and speed.
+## Assembled Prototype Photos
 
----
+![Assembly](assets/images/odp5-assembled.png)
 
-## Prototype Document (Full Report)
+## Testing
 
-[View Full Functional Prototype PDF](assets/functional_prototype.pdf)
+For our prototype, we intended for much of our system to be built around servo motors, which constrain many of the axis of motion to just those wanted. Despite the fact that we ordered our motors as soon as we agreed on a prototype concept (last Wednesday), the motors did not arrive by the day we were doing testing (even though the Amazon listing claimed they would…). Though this was an unfortunate development in our process, we have adapted our tests to manually move the arms in place of the motors, extrapolating to what would be possible with a motor. Our original testing is shown below with what we would have done, and below that is our manual arm testing. 
 
-<object data="{{ '/assets/functional_prototype.pdf' | relative_url }}" 
-        type="application/pdf" 
-        width="100%" 
-        height="600px">
-    <p>Your browser does not support PDFs. 
-    <a href="{{ '/assets/functional_prototype.pdf' | relative_url }}">Download the PDF</a>.</p>
-</object>
+Test 1: (original): 
+Mechanism: Telescoping (motion)
+Functionality: Does the mechanism move the top portion of the hand up or down
+Instructions:
+1. Lay the robotic hand and a ruler flush on the ground next to each other
+2. Record the start position on the ruler
+3. Activate the telescoping mechanism and a stop watch
+4. When the mechanism has increased by 0.25 inch stop the mechanism and stop watch. 
+5. Record the time and what happened during the test
+6. Repeat for 0.5 inch, 0.75 inch, 1 inch, 1.25 inch, and 1.5 inch
+Results:
+| Height (inch | Did it reach the height? | Time (sec) |
+|----------|---------------------|------------|
+| 0.25 | | |
+| 0.5 | | |
+| 0.75 | | |
+| 1 | | |
+| 1.25 | | |
+| 1.5 | | |
+
+Test 2( original):
+Mechanism: Grabber (motion and load bearing performance)
+Functionality: Does the mechanism grab an object firmly? 
+Instructions:
+Lay the robotic hand flush and a ruler on the ground next to each other
+Put a 1 gram weight exactly at the bottom of the paddles and record starting position
+Activate the grabbing mechanism
+While the grabber is grabbing the weight, pull the hand back up to 5 inches and record the end position
+Repeat for 2g, 3g , 4g, and 5g
+Find 5 different objects of similar mass but with different shapes. The masses can have up to 1g of difference. Repeat steps 1-4 with all the objects
+Results:
