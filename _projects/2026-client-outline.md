@@ -110,7 +110,7 @@ These results validate the feasibility of a robotic removal approach, while high
 
 [View Full Functional Prototype PDF](assets/pdfs/functional_prototype.pdf)
 
-<object data="{{ '/assets/pdfs/functional_prototype.pdf' | relative_url }}" 
+<object data="{{ '/assets/functional_prototype.pdf' | relative_url }}" 
         type="application/pdf" 
         width="100%" 
         height="600px">
