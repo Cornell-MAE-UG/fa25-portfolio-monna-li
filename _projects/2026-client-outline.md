@@ -1,3 +1,8 @@
+# Table of Contents
+
+- [Client Pitch](#swatr-a-scalable-robotic-lanternfly-removal-attachment)
+- [Functional Prototype](#functional-prototype)
+
 ---
 layout: project
 description: Client Outline and Pitch for MAE2250 ODP
@@ -73,3 +78,42 @@ A robotic removal tool integrated into existing field robots would reduce labor 
 - Bonsai Amiga - bonsairobotics.ai (modular agricultural mobile robot platform)  
 - Naïo Technologies Agricultural Robots - naio-technologies.com (weeding and field robots)  
 - Clearpath Robotics Husky UGV - clearpathrobotics.com (common research UGV platform used in outdoor robotics)
+
+---
+
+# Functional Prototype
+
+## Purpose
+
+The purpose of this prototype was to test the feasibility of a robotic end-effector capable of removing spotted lanternflies (SLF) from vertical surfaces. The goal was to evaluate whether physical removal could be both effective and repeatable in a controlled setting.
+
+## What Was Tested
+
+- Ability of the end-effector to contact and remove a target
+- Retention of the target after removal
+- Performance across different surface types (flat vs. textured)
+- Basic motion sequence: approach → remove → retract
+
+## Outcome
+
+The prototype successfully demonstrated that:
+- Targets could be removed from vertical surfaces
+- Certain end-effector designs improved retention significantly
+- Surface variation affected removal efficiency
+- Cycle time remains a key constraint for scalability
+
+These results validate the feasibility of a robotic removal approach, while highlighting the need for improvements in retention reliability and speed.
+
+---
+
+## Prototype Document (Full Report)
+
+[View Full Functional Prototype PDF](assets/pdfs/functional_prototype.pdf)
+
+<object data="{{ '/assets/pdfs/functional_prototype.pdf' | relative_url }}" 
+        type="application/pdf" 
+        width="100%" 
+        height="600px">
+    <p>Your browser does not support PDFs. 
+    <a href="{{ '/assets/pdfs/functional_prototype.pdf' | relative_url }}">Download the PDF</a>.</p>
+</object>
