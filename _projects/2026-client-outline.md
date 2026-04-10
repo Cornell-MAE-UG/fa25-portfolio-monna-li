@@ -95,7 +95,7 @@ A robotic removal tool integrated into existing field robots would reduce labor 
 
 ## Design Intent
 
-![Prototype Sketch](assets/images/odp5-prototype-sketch.png)
+![Photo of old radio]({{ "/assets/images/odp5-prototype-sketch.png" | relative_url }})
 Yellow: Represents Motion (Hinging of Arms, Telescoping Assembly)
 Blue: Parts not CADed, and labels for these parts
 Green: Functionality Descriptions
