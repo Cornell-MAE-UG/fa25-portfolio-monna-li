@@ -95,7 +95,7 @@ A robotic removal tool integrated into existing field robots would reduce labor 
 
 ## Design Intent
 
-![Photo of old radio]({{ "/assets/images/odp5-prototype-sketch.png" | relative_url }})
+![Photo of old radio]({{ "/assets/images/odp5-prototype-sketch.png" | relative_url }}){: style="width: 600px"}
 Yellow: Represents Motion (Hinging of Arms, Telescoping Assembly)
 Blue: Parts not CADed, and labels for these parts
 Green: Functionality Descriptions
@@ -103,12 +103,12 @@ Red: McMaster Parts
 
 The main principal behind the design is to have a 2 DOF end effector that can both open/close on spotted lanternflies (via the upper two servos w/ sliders along the rods to prevent binding), and telescoping (via a lower servo that shifts the pivot point of the grippers, with a slotted servo horn to prevent binding). This allows us to program preseise, rapid motion all through the same kind of motors, without the need of more elaborate parts such as ball screw assemblies.
 
-![Assembly1](assets/images/odp5-assembly1.png)
-![Assembly2](assets/images/odp5-assembly2.png)
+![Photo of old radio]({{ "/assets/images/odp5-assembly1.png" | relative_url }}){: style="width: 600px"}
+![Photo of old radio]({{ "/assets/images/odp5-assembly2.png" | relative_url }}){: style="width: 600px"}
 
 ## Assembled Prototype Photos
 
-![Assembly](assets/images/odp5-assembled.png)
+![Photo of old radio]({{ "/assets/images/odp5-assembled.png" | relative_url }}){: style="width: 600px"}
 
 ## Testing
 
@@ -127,12 +127,12 @@ Instructions:
 Results:
 | Height (inch | Did it reach the height? | Time (sec) |
 |----------|---------------------|------------|
-| 0.25 | | |
-| 0.5 | | |
-| 0.75 | | |
-| 1 | | |
-| 1.25 | | |
-| 1.5 | | |
+| 0.25 |  |  |
+| 0.5 |  |  |
+| 0.75 |  |  |
+| 1 |  |  |
+| 1.25 |  |  |
+| 1.5 |  |  |
 
 Test 2( original):
 Mechanism: Grabber (motion and load bearing performance)
