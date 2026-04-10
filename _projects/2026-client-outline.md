@@ -114,7 +114,7 @@ The main principal behind the design is to have a 2 DOF end effector that can bo
 
 For our prototype, we intended for much of our system to be built around servo motors, which constrain many of the axis of motion to just those wanted. Despite the fact that we ordered our motors as soon as we agreed on a prototype concept (last Wednesday), the motors did not arrive by the day we were doing testing (even though the Amazon listing claimed they would…). Though this was an unfortunate development in our process, we have adapted our tests to manually move the arms in place of the motors, extrapolating to what would be possible with a motor. Our original testing is shown below with what we would have done, and below that is our manual arm testing. 
 
-Test 1: (original): 
+**Test 1: (original):**
 Mechanism: Telescoping (motion)
 Functionality: Does the mechanism move the top portion of the hand up or down
 Instructions:
@@ -125,16 +125,9 @@ Instructions:
 5. Record the time and what happened during the test
 6. Repeat for 0.5 inch, 0.75 inch, 1 inch, 1.25 inch, and 1.5 inch
 Results:
-| Height (inch) | Did it reach the height? | Time (sec) |
-|---------------|--------------------------|------------|
-| 0.25          |           -               |      -      |
-| 0.5           |            -              |       -     |
-| 0.75          |             -             |        -    |
-| 1             |              -            |         -   |
-| 1.25          |               -           |     -       |
-| 1.5           |                -          |      -      |
+![Photo of old radio]({{ "/assets/images/odp5-test1.png" | relative_url }}){: style="width: 600px"}
 
-Test 2( original):
+Test 2 (original):
 Mechanism: Grabber (motion and load bearing performance)
 Functionality: Does the mechanism grab an object firmly? 
 Instructions:
@@ -145,21 +138,7 @@ While the grabber is grabbing the weight, pull the hand back up to 5 inches and 
 Repeat for 2g, 3g , 4g, and 5g
 Find 5 different objects of similar mass but with different shapes. The masses can have up to 1g of difference. Repeat steps 1-4 with all the objects
 Results:
-| Mass (g) | Starting Position (inch) | Ending Position (inch) | Total Amount Moved (inch) |
-|----------|--------------------------|------------------------|----------------------------|
-| 1        |             -             |             -           |                -            |
-| 2        |                 -         |     -                   |               -             |
-| 3        |                  -        |      -                  |                -            |
-| 4        |                   -       |       -                 |                 -           |
-| 5        |                    -      |        -                |                  -          |
-
-| Object | Mass (g) | Starting Position (inch) | Ending Position (inch) | Total Amount Moved (inch) |
-|--------|----------|--------------------------|------------------------|----------------------------|
-|        |          |                          |                        |                            |
-|        |          |                          |                        |                            |
-|        |          |                          |                        |                            |
-|        |          |                          |                        |                            |
-|        |          |                          |                        |                            |
+![Photo of old radio]({{ "/assets/images/odp5-test2.png" | relative_url }}){: style="width: 600px"}
 
 **Test 1:**
 Mechanism: Telescoping (motion)
