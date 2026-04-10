@@ -127,12 +127,12 @@ Instructions:
 Results:
 | Height (inch | Did it reach the height? | Time (sec) |
 |----------|---------------------|------------|
-| 0.25 |  |  |
-| 0.5 |  |  |
-| 0.75 |  |  |
-| 1 |  |  |
-| 1.25 |  |  |
-| 1.5 |  |  |
+| 0.25 |   |   |
+| 0.5 |   |   |
+| 0.75 |   |   |
+| 1 |   |   |
+| 1.25 |   |   |
+| 1.5 |   |   |
 
 Test 2( original):
 Mechanism: Grabber (motion and load bearing performance)
