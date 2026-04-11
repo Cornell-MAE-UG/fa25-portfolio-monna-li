@@ -153,14 +153,7 @@ Success Criteria:
 We want our arm to be able to extend at least 1 inch through the telescoping mechanism in order to extend into small, tight spaces. We will measure this by using a ruler to measure how much the arm can telescope.
 
 Results:
-| Height (inch) | Did it reach the height? |
-|---------------|--------------------------|
-| 0.25          | Yes                      |
-| 0.5           | Yes                      |
-| 0.75          | Yes                      |
-| 1             | Yes                      |
-| 1.25          | No                       |
-| 1.5           | No                       |
+![Photo of old radio]({{ "/assets/images/odp5-realtest1.png" | relative_url }}){: style="width: 600px"}
 
 Conclusion:
 The general range of the motion worked as desired, making the test a general success. However, we did notice that along some points of the travel, the assembly had alot of friction, and at others, it had some play. This is likely because the 3D printed chassis only had one end of the pivot support fixed, and the other was allowed to freely flex, making the mechanism more compliant. In future versions, we should either fix both ends, making the entire assembly more rigid, or add some kind of extra spring mechanism to eat the play if we would rather leave the top free. In both cases, a nylon washer between the retaining collar and plastic chassis would go a long way in reducing friction. 
@@ -179,13 +172,7 @@ Success Criteria:
 We want the grabbers to be able to pick up small objects of roughly a few grams and of different sizes/shapes, with a 3 or below on the difficulty score - a human assessed squeeze metric. These “scores” (administered by Roman) were precalibrated on a scale, with a 1 being around 30 grams of force and a 5 being around 150 grams. Values in between step up in increments of 30 grams.
 
 Results:
-| Object         | Mass (g) | How easy was it to hold ranking |
-|----------------|----------|----------------------------------|
-| Cough Drop     | 4        | 4                                |
-| Tape Ball      | 3        | 2                                |
-| Hot Glue Stick | 4        | 1                                |
-| Nut            | 5        | 5                                |
-| Allen Key      | 4        | 3                                |
+![Photo of old radio]({{ "/assets/images/odp5-realtest1.png" | relative_url }}){: style="width: 600px"}
 
 Conclusion:
 Despite the objects all being similar weight, the ones that were physically “wider” along the gripper’s direction were far more difficult to hold, as they had a tendency to want to “roll out” from between the grabbers. We believe this to largely be due to the fact that the grippers are fairly small flat paddles, and the farther they are apart, the more they try to push objects out, rather than hold them flat to eachother. Changing the paddles shape, either adding teeth, a curvature, or making it a frame with a compliant mesh inside might be more conducive to catching and retaining small, bug-shaped objects. Mesh will probably be more reliable overall, as the bugs will not have any way to exert force on the paddles to wriggle out. Also, slightly larger paddles would likely help.
