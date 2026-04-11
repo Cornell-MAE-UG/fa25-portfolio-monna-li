@@ -1,5 +1,6 @@
 ---
 layout: project
+title: SLF Mechanical Grabber Design
 description: Client Outline and Pitch for MAE2250 ODP
 image: assets/images/spotted_lanternfly.jpeg
 fontsize: 11pt
